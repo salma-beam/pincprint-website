@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+<!-- Netlify Identity: processes invite/recovery links from email -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <!-- ═══ SEO — EDIT THESE IN data/site.json ═══════════════ -->
   <title id="meta-title">pincprint Durban | Business Cards, Flyers, Banners &amp; More</title>
   <meta name="description"         id="meta-desc"    content="Quality printing in Durban. Business cards, flyers, banners, brochures, stickers and more. Fast turnaround, competitive prices. Get a free quote today." />
@@ -663,9 +664,20 @@
     <div style="text-align:center;padding:2rem;background:#0B1220;color:#fff;">
       <strong>PrintCo Durban</strong> — Quality printing services in Durban.<br>
       Call us: <a href="tel:0310000000" style="color:#E04510;">031 000 0000</a> |
-      Email: <a href="mailto:hello@printco.co.za" style="color:#E04510;">hello@printco.co.za</a>
+      Email: <a href="mailto:pincprint@gmail.com" style="color:#E04510;">pincprint@gmail.com</a>
     </div>
   </noscript>
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function() {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 </body>
 </html>
