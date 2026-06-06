@@ -1,0 +1,25 @@
+{
+  "heading": "The PrintCo Difference",
+  "items": [
+    {
+      "icon": "fast",
+      "title": "Fast Turnaround",
+      "desc": "Most standard jobs ready within 24–48 hours. Rush jobs available on request."
+    },
+    {
+      "icon": "quality",
+      "title": "Print Quality",
+      "desc": "We use professional-grade equipment and quality substrates. Every job is checked before it leaves."
+    },
+    {
+      "icon": "price",
+      "title": "Competitive Pricing",
+      "desc": "Low overheads mean we can offer prices that undercut bigger print chains without cutting corners."
+    },
+    {
+      "icon": "local",
+      "title": "Local & Personal",
+      "desc": "Durban-based and owner-operated. You speak directly to the person doing your job."
+    }
+  ]
+}

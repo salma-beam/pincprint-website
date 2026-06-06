@@ -1,0 +1,45 @@
+{
+  "intro": "We print everything your business needs — from first impressions to big campaigns.",
+  "items": [
+    {
+      "icon": "card",
+      "name": "Business Cards",
+      "desc": "Leave a lasting impression. Available in standard, square, rounded corners and premium laminated finishes."
+    },
+    {
+      "icon": "flyer",
+      "name": "Flyers & Leaflets",
+      "desc": "Full-colour A6, A5, or A4 flyers on gloss or matte stock. Perfect for promotions and events."
+    },
+    {
+      "icon": "brochure",
+      "name": "Brochures",
+      "desc": "Bi-fold and tri-fold brochures that give your brand a polished, professional edge."
+    },
+    {
+      "icon": "banner",
+      "name": "Banners & Large Format",
+      "desc": "Roll-up banners, PVC banners, and large-format prints for events, shopfronts and exhibitions."
+    },
+    {
+      "icon": "sticker",
+      "name": "Stickers & Labels",
+      "desc": "Custom-cut vinyl stickers, product labels and bumper stickers in any shape or size."
+    },
+    {
+      "icon": "book",
+      "name": "Booklets & NCR Books",
+      "desc": "Saddle-stitched booklets, magazines, quote books and self-carbonising (NCR) forms."
+    },
+    {
+      "icon": "promo",
+      "name": "Branded Promo Items",
+      "desc": "Branded pens, diaries, mugs and more to keep your business top-of-mind."
+    },
+    {
+      "icon": "design",
+      "name": "Graphic Design",
+      "desc": "No artwork? No problem. We will create print-ready files that look great."
+    }
+  ]
+}
