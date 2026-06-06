@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: salma-beam/pincprint-website   # ← update this
+  name: git-gateway
   branch: main
 
 media_folder: "images"
