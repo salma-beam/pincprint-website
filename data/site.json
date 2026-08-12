@@ -1,12 +1,12 @@
 {
   "business_name": "pincprint",
-  "tagline": "Quality printing for Durban businesses. Fast turnaround, sharp results, personal service.",
   "phone": "082 772 5724",
+  "tagline": "Quality printing for Durban businesses. Fast turnaround, sharp results, personal service.",
   "whatsapp": "27827725724",
-  "email": "pincprint@gmail.com",
-  "address": "123 Example Street, Durban, 4001",
-  "site_url": "https://www.yoursite.co.za",
+  "og_image": "/images/og-image.jpg",
+  "address": "Durban",
   "seo_title": "pincprint Durban | Graphic Design, Business Cards, Flyers, Banners & More",
+  "site_url": "https://www.yoursite.co.za",
   "seo_description": "Quality design and printing in Durban. Business cards, flyers, banners, brochures, stickers and branded items. Fast turnaround and competitive prices. Get a free quote today.",
-  "og_image": "/images/og-image.jpg"
+  "email": "pincprint@gmail.com"
 }
