@@ -1,5 +1,13 @@
 {
+  "items": [
+    {
+      "icon": "promo",
+      "name": "Branded Gifting & Packaging",
+      "desc": "Digital foiling, wedding and party favours, invitations, corporate gifts."
+    }
+  ],
   "business_name": "pincprint",
+  "intro": "Services",
   "phone": "082 772 5724",
   "tagline": "Quality printing for Durban businesses. Fast turnaround, sharp results, personal service.",
   "whatsapp": "27827725724",
