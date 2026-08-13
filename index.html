@@ -182,7 +182,14 @@
             <li><a href="#quote">Get a Quote</a></li>
           </ul>
           <div style="display:flex;align-items:center;gap:1rem;">
-            <a href="tel:+27827725724" class="nav-phone" id="nav-phone">082 772 5724</a>
+            <a href="tel:+27827725724" class="nav-phone" id="nav-phone">CALL</a>
+            <a href="#quote" class="nav-cta btn">
+              <svg width="14" height="14"><use href="#icon-arrow"/></svg>
+              Get a Quote
+            </a>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <a href="mailto:pincprint@gmail.com" class="nav-phone" id="nav-phone">EMAIL</a>
             <a href="#quote" class="nav-cta btn">
               <svg width="14" height="14"><use href="#icon-arrow"/></svg>
               Get a Quote
@@ -233,7 +240,7 @@
       <div class="container">
         <span class="section-eyebrow">What We Print</span>
         <h2 class="section-heading" id="services-heading">Everything Your<br>Business Needs Printed</h2>
-        <p class="services-intro" id="services-intro">We print it all — from tiny business cards to large-format banners. If your business needs it printed, we can do it.</p>
+        <p class="services-intro" id="services-intro">We print it all from business cards to wedding cards to large-format banners. If you or your business needs it printed, we can do it.</p>
         <div class="services-grid stagger animate-up" id="services-grid">
           <div class="loading-placeholder">Loading services…</div>
         </div>
@@ -278,7 +285,7 @@
       <div class="container">
         <span class="section-eyebrow">Client Reviews</span>
         <h2 class="section-heading" id="testimonials-heading">What Our Clients Say</h2>
-        <p class="testimonials-intro">Businesses across Durban and KwaZulu-Natal trust us to deliver.</p>
+        <p class="testimonials-intro">Businesses and individuals across Durban and KwaZulu-Natal trust us to deliver.</p>
         <div class="testimonials-grid stagger animate-up" id="testimonials-grid">
           <div class="loading-placeholder">Loading reviews…</div>
         </div>
@@ -299,7 +306,7 @@
             </div>
             <div class="quote-contact-item">
               <svg class="icon-sm"><use href="#icon-mail"/></svg>
-              <a href="mailto:hello@printco.co.za" id="form-email">hello@printco.co.za</a>
+              <a href="mailto:pincprint@gmail.com" id="form-email">pincprint@gmail.com</a>
             </div>
             <div class="quote-contact-item">
               <svg class="icon-sm"><use href="#icon-pin"/></svg>
@@ -355,7 +362,7 @@
                     <option>Stickers / Labels</option>
                     <option>Booklets / Magazines</option>
                     <option>Branded Promotional Items</option>
-                    <option>Graphic Design</option>
+                    <option>Graphic Design / Social Media</option>
                     <option>Other</option>
                   </select>
                 </div>
@@ -393,8 +400,8 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="#" class="logo" aria-label="Homepage">PRINT<span>CO</span></a>
-          <p id="footer-tagline">Quality printing for Durban businesses. Fast turnaround, sharp results, personal service.</p>
+          <a href="#" class="logo" aria-label="Homepage">Pinc<span>Print</span></a>
+          <p id="footer-tagline">Quality design and printing for Durban businesses. Fast turnaround, sharp results, personal service.</p>
         </div>
         <div class="footer-col">
           <h4>Services</h4>
@@ -419,20 +426,20 @@
           <h4>Contact</h4>
           <div class="footer-contact-item">
             <svg><use href="#icon-phone"/></svg>
-            <a href="tel:0310000000" id="footer-phone">031 000 0000</a>
+            <a href="tel:0310000000" id="footer-phone">082 772 5724</a>
           </div>
           <div class="footer-contact-item">
             <svg><use href="#icon-mail"/></svg>
-            <a href="mailto:hello@printco.co.za" id="footer-email">hello@printco.co.za</a>
+            <a href="mailto:pincprint@gmail.com" id="footer-email">pincprint@gmail.com</a>
           </div>
           <div class="footer-contact-item">
             <svg><use href="#icon-pin"/></svg>
-            <span id="footer-address">123 Example Street,<br>Durban, 4001</span>
+            <span id="footer-address"><br>Durban, 4001</span>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <span id="footer-copyright">© <span id="footer-year"></span> PrintCo Durban. All rights reserved.</span>
+        <span id="footer-copyright">© <span id="footer-year"></span> PincPrint Durban. All rights reserved.</span>
         <span>Printing in <a href="#services">Durban</a>, KwaZulu-Natal</span>
       </div>
     </div>
@@ -595,7 +602,7 @@
       $('og-url').setAttribute('content', data.site_url + '/');
     }
     // Nav
-    const logoName = data.business_name || 'PRINTCO';
+    const logoName = data.business_name || 'PincPrint';
     const split = Math.floor(logoName.length / 2);
     $('nav-logo').innerHTML = `${logoName.slice(0, split)}<span>${logoName.slice(split)}</span>`;
     document.querySelector('.footer-brand .logo').innerHTML = `${logoName.slice(0, split)}<span>${logoName.slice(split)}</span>`;
@@ -662,8 +669,8 @@
   <!-- noscript fallback for key contact info -->
   <noscript>
     <div style="text-align:center;padding:2rem;background:#0B1220;color:#fff;">
-      <strong>PrintCo Durban</strong> — Quality printing services in Durban.<br>
-      Call us: <a href="tel:0310000000" style="color:#E04510;">031 000 0000</a> |
+      <strong>PincPrint Durban</strong> — Quality printing services in Durban.<br>
+      Call us: <a href="tel:0827725724" style="color:#E04510;">082 772 5724</a> |
       Email: <a href="mailto:pincprint@gmail.com" style="color:#E04510;">pincprint@gmail.com</a>
     </div>
   </noscript>
