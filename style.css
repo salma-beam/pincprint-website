@@ -286,8 +286,8 @@ section { padding: var(--s8) 0; }
 }
 .hero-sub p {
   font-size: 1.05rem;
-  color: rgba(255,255,255,0.6);
   margin-bottom: var(--s3);
+  margin-top: var(--s3);
   line-height: 1.7;
 }
 .hero-actions {
@@ -307,7 +307,6 @@ section { padding: var(--s8) 0; }
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.35);
   border: 1px solid rgba(255,255,255,0.1);
   padding: 0.35rem 0.75rem;
   border-radius: 100px;
@@ -445,7 +444,7 @@ section { padding: var(--s8) 0; }
 
 .benefit-card {
   padding: var(--s4) var(--s3);
-  background-color: var(--dark-2);
+  background-color: var(--white);
   border: 1px solid rgba(255,255,255,0.07);
   border-radius: var(--r-md);
   transition: border-color 0.2s, background 0.2s;
@@ -488,7 +487,7 @@ section { padding: var(--s8) 0; }
   gap: 1.5rem;
 }
 .testimonial-card {
-  background: var(--paper);
+  background: var(--white);
   border-radius: var(--r-md);
   padding: var(--s4) var(--s3);
   border: 1px solid var(--border);
@@ -529,7 +528,7 @@ section { padding: var(--s8) 0; }
 
 /* ─── 10. QUOTE FORM ────────────────────────────────────── */
 .quote {
-  background: var(--dark);
+  background: var(--muted);
   position: relative;
   overflow: hidden;
 }
@@ -680,7 +679,7 @@ footer {
 .footer-brand .logo span { color: var(--accent); }
 .footer-brand p {
   font-size: 0.85rem;
-  color: var(--paper);
+  color: var(--muted);
   line-height: 1.75;
   max-width: 240px;
 }
