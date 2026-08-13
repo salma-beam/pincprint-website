@@ -9,7 +9,7 @@
     {
       "icon": "flyer",
       "name": "Flyers & Leaflets",
-      "desc": "Full-colour A6, A5, or A4 flyers on gloss or matte stock. Perfect for promotions and events."
+      "desc": "Full-colour flyers on gloss or matte stock. Perfect for promotions and events."
     },
     {
       "icon": "brochure",
@@ -24,7 +24,12 @@
     {
       "icon": "sticker",
       "name": "Stickers & Labels",
-      "desc": "Custom-cut vinyl stickers, product labels and bumper stickers in any shape or size."
+      "desc": "Custom-cut vinyl stickers, product labels and bumper stickers in any shape or size, in small or large quantities."
+    },
+        {
+      "icon": "sticker",
+      "name": "Rubber Stamps & Badges",
+      "desc": "Customisable stamps for personal or office use, badges in small or large quantities."
     },
     {
       "icon": "book",
@@ -33,13 +38,18 @@
     },
     {
       "icon": "promo",
-      "name": "Branded Promo Items",
+      "name": "Branded Gifting & Stationery",
+      "desc": "Digital foiling, wedding and party stationery - from invitations to party favours."
+    },
+    {
+      "icon": "promo",
+      "name": "Branded Corporate Promo Items",
       "desc": "Branded pens, diaries, mugs and more to keep your business top-of-mind."
     },
     {
       "icon": "design",
       "name": "Graphic Design",
-      "desc": "No artwork? No problem. We will create print-ready files that look great."
+      "desc": "No artwork? No problem. We will create print-ready files, and even design your social media ads."
     }
   ]
 }
