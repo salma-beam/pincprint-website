@@ -7,14 +7,20 @@
   },
   {
     "stars": 5,
-    "text": "I've been using PrintCo for all our restaurant menus and flyers for three years. Pricing is always fair and the quality is consistently great. Highly recommended.",
-    "name": "Sipho Dlamini",
-    "role": "Restaurant Owner, Umhlanga"
+    "text": "PincPrint is the best! Always accommodating, never fails to meet deadlines and always willing to go the extra mile.",
+    "name": "Asmeena Moosa",
+    "role": "Google Review"
   },
   {
     "stars": 5,
     "text": "As a small business owner I appreciate working directly with someone who cares about the job. The banner they made for our shopfront looks fantastic — better than we imagined.",
     "name": "Karen van Zyl",
     "role": "Boutique Owner, Pinetown"
+  },
+   {
+    "stars": 5,
+    "text": "Seemless design, edit, print. A turnkey solution, that's affordable and peaceful to work with PincPrint",
+    "name": "Ahmed Seedat",
+    "role": "Google Review"
   }
 ]
